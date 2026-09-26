@@ -1,0 +1,20 @@
+cat << 'EOF' > .gitignore
+# Системні файли Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Середовища розробки (VS Code, JetBrains)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Тимчасові файли та логи
+*.log
+tmp/
+EOF
