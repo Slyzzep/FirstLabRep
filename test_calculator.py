@@ -1,4 +1,3 @@
-cat << 'EOF' > test_calculator.py
 import unittest
 from calculator import add, subtract
 
